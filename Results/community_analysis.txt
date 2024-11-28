@@ -1,0 +1,498 @@
+	
+Community 1:
+  Dominant Subfield: Electroweak Physics (38.81%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Gravitational Physics: 600 - Odds Ratio: 4.38, P-value: 0.0000
+    Beyond the Standard Model: 1690 - Odds Ratio: 3.33, P-value: 0.0000
+    Particle Physics: 2429 - Odds Ratio: 1.60, P-value: 0.0000
+    String Theory: 716 - Odds Ratio: 14.40, P-value: 0.0000
+    Electroweak Physics: 5586 - Odds Ratio: 2.58, P-value: 0.0000
+    Cosmology: 1487 - Odds Ratio: 3.70, P-value: 0.0000
+    Quantum Field Theory: 862 - Odds Ratio: 0.53, P-value: 0.0000
+    Supersymmetry: 4091 - Odds Ratio: 15.23, P-value: 0.0000
+    Quantum Chromodynamics: 3124 - Odds Ratio: 0.15, P-value: 0.0000
+    Neutrino Physics: 5110 - Odds Ratio: 9.61, P-value: 0.0000
+    General Theoretical Physics: 1207 - Odds Ratio: 1.99, P-value: 0.0000
+    Experimental QCD: 48 - Odds Ratio: 0.09, P-value: 0.0000
+    Unknown: 1035 - Odds Ratio: 0.47, P-value: 0.0000
+    Quantum Electrodynamics: 335 - Odds Ratio: 0.94, P-value: 0.3744
+    Non-Perturbative QCD: 35 - Odds Ratio: 0.06, P-value: 0.0000
+    Perturbative QCD: 59 - Odds Ratio: 0.07, P-value: 0.0000
+    Phenomenology of QCD: 2 - Odds Ratio: 0.01, P-value: 0.0000
+
+Community 2:
+  Dominant Subfield: Quantum Chromodynamics (72.15%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 5860 - Odds Ratio: 4.08, P-value: 0.0000
+    Experimental QCD: 710 - Odds Ratio: 35.06, P-value: 0.0000
+    Neutrino Physics: 590 - Odds Ratio: 0.29, P-value: 0.0000
+    Quantum Field Theory: 594 - Odds Ratio: 0.78, P-value: 0.0000
+    Unknown: 1031 - Odds Ratio: 1.19, P-value: 0.0000
+    Particle Physics: 1319 - Odds Ratio: 1.32, P-value: 0.0000
+    Perturbative QCD: 745 - Odds Ratio: 6.81, P-value: 0.0000
+    Electroweak Physics: 1317 - Odds Ratio: 0.43, P-value: 0.0000
+    Phenomenology of QCD: 207 - Odds Ratio: 4.38, P-value: 0.0000
+    Non-Perturbative QCD: 201 - Odds Ratio: 1.05, P-value: 0.5896
+    Gravitational Physics: 12 - Odds Ratio: 0.05, P-value: 0.0000
+    Cosmology: 17 - Odds Ratio: 0.02, P-value: 0.0000
+    Beyond the Standard Model: 75 - Odds Ratio: 0.09, P-value: 0.0000
+    Supersymmetry: 72 - Odds Ratio: 0.04, P-value: 0.0000
+    General Theoretical Physics: 239 - Odds Ratio: 0.40, P-value: 0.0000
+    Quantum Electrodynamics: 188 - Odds Ratio: 0.94, P-value: 0.5089
+    String Theory: 16 - Odds Ratio: 0.07, P-value: 0.0000
+
+Community 3:
+  Dominant Subfield: Quantum Chromodynamics (65.83%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 3103 - Odds Ratio: 2.49, P-value: 0.0000
+    Neutrino Physics: 319 - Odds Ratio: 0.30, P-value: 0.0000
+    Electroweak Physics: 1331 - Odds Ratio: 1.03, P-value: 0.3532
+    Quantum Field Theory: 394 - Odds Ratio: 0.95, P-value: 0.3452
+    Beyond the Standard Model: 462 - Odds Ratio: 1.51, P-value: 0.0000
+    Supersymmetry: 251 - Odds Ratio: 0.33, P-value: 0.0000
+    Perturbative QCD: 194 - Odds Ratio: 1.32, P-value: 0.0007
+    Particle Physics: 483 - Odds Ratio: 0.69, P-value: 0.0000
+    Non-Perturbative QCD: 193 - Odds Ratio: 1.97, P-value: 0.0000
+    Unknown: 559 - Odds Ratio: 1.06, P-value: 0.2070
+    Gravitational Physics: 17 - Odds Ratio: 0.13, P-value: 0.0000
+    General Theoretical Physics: 123 - Odds Ratio: 0.38, P-value: 0.0000
+    Experimental QCD: 7 - Odds Ratio: 0.06, P-value: 0.0000
+    Quantum Electrodynamics: 103 - Odds Ratio: 0.89, P-value: 0.2839
+    Cosmology: 15 - Odds Ratio: 0.04, P-value: 0.0000
+    String Theory: 20 - Odds Ratio: 0.16, P-value: 0.0000
+    Phenomenology of QCD: 3 - Odds Ratio: 0.05, P-value: 0.0000
+
+Community 4:
+  Dominant Subfield: Quantum Chromodynamics (42.73%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Cosmology: 551 - Odds Ratio: 3.16, P-value: 0.0000
+    Electroweak Physics: 983 - Odds Ratio: 0.89, P-value: 0.0019
+    Quantum Chromodynamics: 1643 - Odds Ratio: 0.84, P-value: 0.0000
+    Unknown: 636 - Odds Ratio: 1.66, P-value: 0.0000
+    Supersymmetry: 175 - Odds Ratio: 0.28, P-value: 0.0000
+    Particle Physics: 314 - Odds Ratio: 0.53, P-value: 0.0000
+    Quantum Field Theory: 703 - Odds Ratio: 2.75, P-value: 0.0000
+    Beyond the Standard Model: 135 - Odds Ratio: 0.44, P-value: 0.0000
+    General Theoretical Physics: 317 - Odds Ratio: 1.46, P-value: 0.0000
+    Neutrino Physics: 100 - Odds Ratio: 0.11, P-value: 0.0000
+    String Theory: 31 - Odds Ratio: 0.32, P-value: 0.0000
+    Gravitational Physics: 152 - Odds Ratio: 1.91, P-value: 0.0000
+    Non-Perturbative QCD: 201 - Odds Ratio: 2.65, P-value: 0.0000
+    Quantum Electrodynamics: 161 - Odds Ratio: 1.95, P-value: 0.0000
+    Phenomenology of QCD: 112 - Odds Ratio: 3.63, P-value: 0.0000
+    Perturbative QCD: 46 - Odds Ratio: 0.33, P-value: 0.0000
+    Experimental QCD: 8 - Odds Ratio: 0.08, P-value: 0.0000
+
+Community 5:
+  Dominant Subfield: Quantum Chromodynamics (75.32%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    General Theoretical Physics: 200 - Odds Ratio: 1.25, P-value: 0.0051
+    Electroweak Physics: 285 - Odds Ratio: 0.28, P-value: 0.0000
+    Quantum Chromodynamics: 2054 - Odds Ratio: 3.85, P-value: 0.0000
+    Unknown: 391 - Odds Ratio: 1.35, P-value: 0.0000
+    Quantum Field Theory: 442 - Odds Ratio: 2.20, P-value: 0.0000
+    Beyond the Standard Model: 93 - Odds Ratio: 0.44, P-value: 0.0000
+    Neutrino Physics: 60 - Odds Ratio: 0.09, P-value: 0.0000
+    Perturbative QCD: 41 - Odds Ratio: 0.43, P-value: 0.0000
+    Non-Perturbative QCD: 179 - Odds Ratio: 3.38, P-value: 0.0000
+    Quantum Electrodynamics: 41 - Odds Ratio: 0.60, P-value: 0.0007
+    Cosmology: 13 - Odds Ratio: 0.07, P-value: 0.0000
+    Particle Physics: 62 - Odds Ratio: 0.14, P-value: 0.0000
+    Gravitational Physics: 7 - Odds Ratio: 0.10, P-value: 0.0000
+    Supersymmetry: 10 - Odds Ratio: 0.02, P-value: 0.0000
+    Experimental QCD: 6 - Odds Ratio: 0.09, P-value: 0.0000
+    Phenomenology of QCD: 5 - Odds Ratio: 0.16, P-value: 0.0000
+    String Theory: 5 - Odds Ratio: 0.07, P-value: 0.0000
+
+Community 6:
+  Dominant Subfield: Quantum Chromodynamics (48.16%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Perturbative QCD: 45 - Odds Ratio: 2.46, P-value: 0.0000
+    Quantum Chromodynamics: 288 - Odds Ratio: 1.06, P-value: 0.4822
+    Particle Physics: 85 - Odds Ratio: 1.05, P-value: 0.6735
+    Unknown: 224 - Odds Ratio: 4.92, P-value: 0.0000
+    Electroweak Physics: 24 - Odds Ratio: 0.11, P-value: 0.0000
+    Quantum Field Theory: 9 - Odds Ratio: 0.16, P-value: 0.0000
+    Non-Perturbative QCD: 7 - Odds Ratio: 0.48, P-value: 0.0567
+    Neutrino Physics: 12 - Odds Ratio: 0.09, P-value: 0.0000
+    Quantum Electrodynamics: 2 - Odds Ratio: 0.13, P-value: 0.0001
+    Phenomenology of QCD: 35 - Odds Ratio: 6.35, P-value: 0.0000
+    Beyond the Standard Model: 1 - Odds Ratio: 0.02, P-value: 0.0000
+    Supersymmetry: 1 - Odds Ratio: 0.01, P-value: 0.0000
+    Experimental QCD: 3 - Odds Ratio: 0.21, P-value: 0.0012
+    Cosmology: 1 - Odds Ratio: 0.03, P-value: 0.0000
+
+Community 7:
+  Dominant Subfield: Unknown (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Unknown: 6 - Odds Ratio: inf, P-value: 0.0000
+
+Community 8:
+  Dominant Subfield: Particle Physics (40.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Particle Physics: 2 - Odds Ratio: 4.23, P-value: 0.1397
+    Unknown: 2 - Odds Ratio: 5.23, P-value: 0.1014
+    Quantum Chromodynamics: 2 - Odds Ratio: 0.76, P-value: 1.0000
+
+Community 9:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Non-Perturbative QCD: 3 - Odds Ratio: 61.38, P-value: 0.0001
+    Quantum Chromodynamics: 5 - Odds Ratio: inf, P-value: 0.0222
+
+Community 10:
+  Dominant Subfield: Electroweak Physics (60.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 3 - Odds Ratio: 3.92, P-value: 0.1336
+    Particle Physics: 2 - Odds Ratio: 4.23, P-value: 0.1397
+    Neutrino Physics: 2 - Odds Ratio: 3.05, P-value: 0.2214
+    Quantum Chromodynamics: 1 - Odds Ratio: 0.29, P-value: 0.3804
+    Unknown: 2 - Odds Ratio: 5.23, P-value: 0.1014
+
+Community 11:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 4 - Odds Ratio: inf, P-value: 0.0475
+    Particle Physics: 1 - Odds Ratio: 2.12, P-value: 0.4429
+
+Community 12:
+  Dominant Subfield: Quantum Chromodynamics (66.67%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: 2.28, P-value: 0.6019
+    Unknown: 1 - Odds Ratio: 3.92, P-value: 0.3024
+
+Community 13:
+  Dominant Subfield: General Theoretical Physics (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    General Theoretical Physics: 2 - Odds Ratio: 15.50, P-value: 0.0203
+    Unknown: 2 - Odds Ratio: 7.84, P-value: 0.0657
+    Quantum Field Theory: 1 - Odds Ratio: 3.49, P-value: 0.3061
+    Particle Physics: 1 - Odds Ratio: 2.12, P-value: 0.4429
+
+Community 14:
+  Dominant Subfield: Unknown (66.67%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 1 - Odds Ratio: 1.31, P-value: 1.0000
+    Unknown: 2 - Odds Ratio: 15.69, P-value: 0.0355
+
+Community 15:
+  Dominant Subfield: Quantum Electrodynamics (33.33%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Electrodynamics: 1 - Odds Ratio: 20.21, P-value: 0.0708
+    Quantum Field Theory: 1 - Odds Ratio: 5.23, P-value: 0.2397
+    Unknown: 1 - Odds Ratio: 3.92, P-value: 0.3024
+
+Community 16:
+  Dominant Subfield: Cosmology (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Cosmology: 3 - Odds Ratio: inf, P-value: 0.0002
+
+Community 17:
+  Dominant Subfield: Gravitational Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Gravitational Physics: 3 - Odds Ratio: inf, P-value: 0.0000
+    Electroweak Physics: 1 - Odds Ratio: 1.31, P-value: 1.0000
+
+Community 18:
+  Dominant Subfield: Electroweak Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 3 - Odds Ratio: inf, P-value: 0.0212
+    Beyond the Standard Model: 1 - Odds Ratio: 6.51, P-value: 0.1992
+    Quantum Chromodynamics: 2 - Odds Ratio: 2.28, P-value: 0.6019
+    Particle Physics: 1 - Odds Ratio: 3.18, P-value: 0.3551
+
+Community 19:
+  Dominant Subfield: Non-Perturbative QCD (66.67%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Electrodynamics: 1 - Odds Ratio: 20.21, P-value: 0.0708
+    Non-Perturbative QCD: 2 - Odds Ratio: 81.74, P-value: 0.0017
+    Quantum Chromodynamics: 2 - Odds Ratio: 2.28, P-value: 0.6019
+    Gravitational Physics: 1 - Odds Ratio: 21.17, P-value: 0.0677
+    Beyond the Standard Model: 1 - Odds Ratio: 6.51, P-value: 0.1992
+    General Theoretical Physics: 1 - Odds Ratio: 7.75, P-value: 0.1711
+    Quantum Field Theory: 1 - Odds Ratio: 5.23, P-value: 0.2397
+
+Community 20:
+  Dominant Subfield: Cosmology (66.67%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Cosmology: 2 - Odds Ratio: 30.99, P-value: 0.0106
+    Unknown: 1 - Odds Ratio: 3.92, P-value: 0.3024
+    Gravitational Physics: 1 - Odds Ratio: 21.17, P-value: 0.0677
+
+Community 21:
+  Dominant Subfield: Unknown (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Unknown: 2 - Odds Ratio: inf, P-value: 0.0128
+
+Community 22:
+  Dominant Subfield: Unknown (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+
+Community 23:
+  Dominant Subfield: Non-Perturbative QCD (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Electrodynamics: 1 - Odds Ratio: 40.42, P-value: 0.0478
+    Non-Perturbative QCD: 2 - Odds Ratio: inf, P-value: 0.0006
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+
+Community 24:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
+
+Community 25:
+  Dominant Subfield: Non-Perturbative QCD (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    General Theoretical Physics: 1 - Odds Ratio: 15.50, P-value: 0.1176
+    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+    Non-Perturbative QCD: 2 - Odds Ratio: inf, P-value: 0.0006
+    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+
+Community 26:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+    Perturbative QCD: 1 - Odds Ratio: 29.57, P-value: 0.0644
+
+Community 27:
+  Dominant Subfield: Quantum Field Theory (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
+    Quantum Field Theory: 2 - Odds Ratio: inf, P-value: 0.0076
+    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+    Beyond the Standard Model: 1 - Odds Ratio: 13.02, P-value: 0.1376
+
+Community 28:
+  Dominant Subfield: Quantum Chromodynamics (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+
+Community 29:
+  Dominant Subfield: Electroweak Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+
+Community 30:
+  Dominant Subfield: Gravitational Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Gravitational Physics: 2 - Odds Ratio: inf, P-value: 0.0005
+
+Community 31:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 32:
+  Dominant Subfield: Neutrino Physics (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
+    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+
+Community 33:
+  Dominant Subfield: Neutrino Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Neutrino Physics: 2 - Odds Ratio: inf, P-value: 0.0322
+    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+
+Community 34:
+  Dominant Subfield: Unknown (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+
+Community 35:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 36:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 37:
+  Dominant Subfield: Cosmology (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Cosmology: 2 - Odds Ratio: inf, P-value: 0.0037
+    Gravitational Physics: 1 - Odds Ratio: 42.34, P-value: 0.0457
+
+Community 38:
+  Dominant Subfield: Unknown (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Unknown: 2 - Odds Ratio: inf, P-value: 0.0128
+
+Community 39:
+  Dominant Subfield: Electroweak Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+
+Community 40:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 41:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
+    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+
+Community 42:
+  Dominant Subfield: Unknown (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+    Gravitational Physics: 1 - Odds Ratio: 42.34, P-value: 0.0457
+    Beyond the Standard Model: 1 - Odds Ratio: 13.02, P-value: 0.1376
+
+Community 43:
+  Dominant Subfield: Quantum Field Theory (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+
+Community 44:
+  Dominant Subfield: Beyond the Standard Model (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Beyond the Standard Model: 2 - Odds Ratio: inf, P-value: 0.0051
+
+Community 45:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 46:
+  Dominant Subfield: General Theoretical Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    General Theoretical Physics: 2 - Odds Ratio: inf, P-value: 0.0037
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 47:
+  Dominant Subfield: Non-Perturbative QCD (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Non-Perturbative QCD: 2 - Odds Ratio: inf, P-value: 0.0006
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 48:
+  Dominant Subfield: Unknown (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+
+Community 49:
+  Dominant Subfield: Cosmology (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Cosmology: 2 - Odds Ratio: inf, P-value: 0.0037
+    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+    Beyond the Standard Model: 1 - Odds Ratio: 13.02, P-value: 0.1376
+
+Community 50:
+  Dominant Subfield: Neutrino Physics (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
+    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+
+Community 51:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 52:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+    Gravitational Physics: 1 - Odds Ratio: 42.34, P-value: 0.0457
+
+Community 53:
+  Dominant Subfield: Quantum Chromodynamics (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+
+Community 54:
+  Dominant Subfield: Electroweak Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Cosmology: 1 - Odds Ratio: 15.49, P-value: 0.1177
+    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+
+Community 55:
+  Dominant Subfield: General Theoretical Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    General Theoretical Physics: 2 - Odds Ratio: inf, P-value: 0.0037
+    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+    Quantum Electrodynamics: 2 - Odds Ratio: inf, P-value: 0.0006
+    Cosmology: 1 - Odds Ratio: 15.49, P-value: 0.1177
+
+Community 56:
+  Dominant Subfield: String Theory (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    String Theory: 1 - Odds Ratio: 42.84, P-value: 0.0452
+    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+
+Community 57:
+  Dominant Subfield: Neutrino Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Neutrino Physics: 2 - Odds Ratio: inf, P-value: 0.0322
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 58:
+  Dominant Subfield: Beyond the Standard Model (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+    Beyond the Standard Model: 2 - Odds Ratio: inf, P-value: 0.0051
+    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+
+Community 59:
+  Dominant Subfield: Electroweak Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+    Supersymmetry: 1 - Odds Ratio: 6.51, P-value: 0.2487
+    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+
+Community 60:
+  Dominant Subfield: Particle Physics (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Particle Physics: 1 - Odds Ratio: 6.35, P-value: 0.2536
+    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+
+Community 61:
+  Dominant Subfield: Electroweak Physics (50.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+
+Community 62:
+  Dominant Subfield: Electroweak Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+
+Community 63:
+  Dominant Subfield: Supersymmetry (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Supersymmetry: 2 - Odds Ratio: inf, P-value: 0.0178
+
+Community 64:
+  Dominant Subfield: Electroweak Physics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+    General Theoretical Physics: 1 - Odds Ratio: 15.50, P-value: 0.1176
+    Cosmology: 1 - Odds Ratio: 15.49, P-value: 0.1177
+
+Community 65:
+  Dominant Subfield: Quantum Chromodynamics (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+
+Community 66:
+  Dominant Subfield: Unknown (100.00%)
+  Subfield Distribution and Fisher's Exact Test Results:
+    Unknown: 2 - Odds Ratio: inf, P-value: 0.0128
