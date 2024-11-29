@@ -1,4 +1,6 @@
 import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import scripts.data_loader as dl
 import scripts.label_assigner as la
 import scripts.metadata_extractor as me
@@ -28,7 +30,7 @@ def main():
     # Calculate and display Fisher's Exact Test results
     community_stats = ca.perform_fisher_analysis(community_stats, labeled_papers, len(paper_ids))
     ut.save_community_analysis(community_stats, output_file='community_analysis.txt')
-    cd.visualize_communities_advanced(citation_network, partition, community_stats)
+    cd.visualize_communities(citation_network, partition, community_stats)
 
 
 if __name__ == "__main__":

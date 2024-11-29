@@ -55,7 +55,7 @@ def analyze_community_subfields(communities, metadata):
     return community_subfields
 
 
-def visualize_communities_advanced(graph, partition, community_stats, num_communities_to_label=10, degree_threshold=60):
+def visualize_communities(graph, partition, community_stats, num_communities_to_label=10, degree_threshold=60, output_path=None):
     """
     Visualizes the network graph with nodes colored by community using distinct random colors.
 
@@ -66,6 +66,10 @@ def visualize_communities_advanced(graph, partition, community_stats, num_commun
         num_communities_to_label (int): Number of communities to label in the legend.
         degree_threshold (int): Threshold of nodes degree for showing in the visualization.
     """
+    
+    if output_path is None:
+        output_path = 'Results'
+        
     # Apply a threshold to filter nodes
     filtered_nodes = [node for node in graph.nodes() if graph.degree(node) > degree_threshold]
     subgraph = graph.subgraph(filtered_nodes)
