@@ -1,3 +1,4 @@
+from . import test_setup
 import unittest
 from unittest.mock import mock_open, patch, call
 from scripts.utils import save_community_analysis, format_paper_id

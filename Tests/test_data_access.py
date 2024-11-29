@@ -1,3 +1,4 @@
+from . import test_setup
 import unittest
 import os
 import tempfile

@@ -1,3 +1,4 @@
+from . import test_setup
 import unittest
 from scripts.label_assigner import assign_labels, create_subfield_dictionary, label_paper, label_papers
 from unittest.mock import patch, MagicMock

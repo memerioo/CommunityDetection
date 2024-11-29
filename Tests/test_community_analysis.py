@@ -1,3 +1,4 @@
+from . import test_setup
 import unittest
 from scripts.community_analysis import prepare_community_stats, perform_fisher_analysis, calculate_overall_subfield_counts
 import collections as col

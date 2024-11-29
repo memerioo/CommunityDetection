@@ -1,3 +1,4 @@
+from . import test_setup
 import unittest
 from unittest.mock import patch, MagicMock
 from scripts.metadata_extractor import query_arxiv, fetch_metadata

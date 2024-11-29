@@ -1,3 +1,4 @@
+from . import test_setup
 import unittest
 from unittest.mock import patch, MagicMock
 from scripts.community_detection import detect_communities_infomap, analyze_community_subfields
