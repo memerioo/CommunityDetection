@@ -4,7 +4,7 @@
 This project conducts a structural analysis of high-energy physics citation networks from the SNAP database through community detection techniques. The primary aim is to explore if communities within these networks naturally segregate according to specific sub-fields of study.
 
 ## Dataset
-Utilizing a dataset comprising 34,546 papers with 421,578 citations from the arXiv labeled with hep-ph (High-energy Phenomenology), this project seeks to uncover underlying patterns and structures within the citation network.
+Utilizing a dataset comprising 34,546 papers with 421,578 citations from the arXiv labeled with hep-ph (High-energy Phenomenology), this project seeks to uncover underlying patterns and structures within the citation network. This dataset has been obtained from SNAP database: https://snap.stanford.edu/data/cit-HepPh.html
 
 ## Hypothesis
 The hypothesis posits that communities within the citation graph are distinctly formed around different sub-fields. This was explored by:
