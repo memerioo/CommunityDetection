@@ -1,3 +1,4 @@
+import os
 import networkx as nx
 import infomap
 from collections import defaultdict
@@ -55,25 +56,32 @@ def analyze_community_subfields(communities, metadata):
     return community_subfields
 
 
-def visualize_communities(graph, partition, community_stats, num_communities_to_label=10, degree_threshold=60, output_path=None):
+def visualize_communities(graph, partition, community_stats, num_communities_to_label=6, degree_threshold=60, output_path=None):
     """
-    Visualizes the network graph with nodes colored by community using distinct random colors.
+    Visualizes the network graph with nodes colored by community using distinct random colors, with consistent colors across runs.
 
     Args:
         graph (nx.Graph): The graph to visualize.
         partition (dict): Node-community mapping.
-        community_stats (dict): Statistics about each community, including dominant subfield.
+        community_stats (dict): Statistics about each community.
         num_communities_to_label (int): Number of communities to label in the legend.
         degree_threshold (int): Threshold of nodes degree for showing in the visualization.
+        output_path (str): Path where the visualization image will be saved. Defaults to 'Results' directory.
     """
     
     if output_path is None:
         output_path = 'Results'
-        
+    
+    # Ensure the output directory exists
+    os.makedirs(output_path, exist_ok=True)
+
+    # Set a random seed for color consistency across runs
+    random.seed(42)
+
     # Apply a threshold to filter nodes
     filtered_nodes = [node for node in graph.nodes() if graph.degree(node) > degree_threshold]
     subgraph = graph.subgraph(filtered_nodes)
-    pos = nx.kamada_kawai_layout(subgraph)  
+    pos = nx.kamada_kawai_layout(subgraph)
 
     plt.figure(figsize=(12, 8))
     
@@ -91,13 +99,18 @@ def visualize_communities(graph, partition, community_stats, num_communities_to_
 
     # Create a legend for the largest communities
     largest_communities = sorted([(comm_id, stats) for comm_id, stats in community_stats.items() if comm_id in partition.values()], key=lambda x: x[1]['count'], reverse=True)[:num_communities_to_label]
-    legend_handles = [plt.Line2D([0], [0], marker='o', color=color_map[comm_id], label=f"Community {comm_id}: {stats['dominant_subfield']} ({stats['dominant_percentage']:.2f}%)", markersize=10, linestyle='') for comm_id, stats in largest_communities]
+    legend_handles = [plt.Line2D([0], [0], marker='o', color=color_map[comm_id], label=f"Community {comm_id}", markersize=10, linestyle='') for comm_id, stats in largest_communities]
 
     plt.legend(handles=legend_handles, title="Communities", loc='upper left')
-    plt.title('Advanced Community Visualization')
+    plt.title('Community Visualization')
     plt.axis('off')
-    plt.savefig('/Users/maryamriazi/Documents/Uni Courses/imagekamadakawai_DT60.png')  
-    plt.close()  
+
+    # Construct full output path
+    output_filename = os.path.join(output_path, 'community_visualization.png')
+    plt.savefig(output_filename)
+    plt.close()
+
+
 
 
 

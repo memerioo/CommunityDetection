@@ -4,7 +4,7 @@
 This project conducts a structural analysis of high-energy physics citation networks from the SNAP database through community detection techniques. The primary aim is to explore if communities within these networks naturally segregate according to specific sub-fields of study.
 
 ## Dataset
-Utilizing a dataset comprising 34,546 papers with 421,578 citations from the arXiv labeled with hep-ph (High-energy Phenomenology), this project seeks to uncover underlying patterns and structures within the citation network. This dataset has been obtained from SNAP database: https://snap.stanford.edu/data/cit-HepPh.html
+Utilizing a dataset comprising 34,546 papers with 421,578 citations from the arXiv labeled with hep-ph (High-energy Phenomenology), and contains all the papers in the period from January 1993 to April 2003 (124 months). This dataset has been obtained from SNAP database: https://snap.stanford.edu/data/cit-HepPh.html
 
 ## Hypothesis
 The hypothesis posits that communities within the citation graph are distinctly formed around different sub-fields. This was explored by:
@@ -21,7 +21,9 @@ The hypothesis posits that communities within the citation graph are distinctly 
 
 ## Results
 The infomap algorithm has detected 66 communities, with 6 major communities meaning they had more than 500 papers. The remaining minor communities each had less than 10 papers. The reported odds-ratio values and P-value for each subfield in the major 6 communities, confirms our main hypothesis. The P-values are meaningfully low (mostly zero with four digits of precision), and odds ratios are mostly either very low, or meaningfully larger than one. These reported values reject the null-hypothesis, meaning that the observed effect or relationship (seperation of communities with respect to sub-fields) is statistically significant.
-![Visualized communities. Only nodes with degree higher than 60 have been visualized. As it can be seen, communities are well-separated.](Results/imagekamadakawai_DT60.png)
+
+![Visualized communities. Only nodes with degree higher than 60 have been visualized. As it can be seen, communities are well-separated.](Results/community_visualization.png)
+
 The reported statistical values can be seen in Results/community_analysis.txt.
 
 ## Structure of the Project
