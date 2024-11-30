@@ -29,7 +29,9 @@ def main():
 
     # Calculate and display Fisher's Exact Test results
     community_stats = ca.perform_fisher_analysis(community_stats, labeled_papers, len(paper_ids))
-    ut.save_community_analysis(community_stats, output_file='community_analysis.txt')
+    if not os.path.exists('Results'):
+        os.makedirs('Results')
+    ut.save_community_analysis(community_stats, output_file='Results/community_analysis.txt')
     cd.visualize_communities(citation_network, partition, community_stats)
 
 
