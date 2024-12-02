@@ -1,498 +1,601 @@
-	
+Global Metrics:
+global_edge_density: 0.00035326041393102855
+global_clustering_coefficient: 0.14326383421252753
+global_avg_degree_centrality: 0.0007065208278620571
+global_avg_betweenness_centrality: 0.00012596866727121515
+
+Community Specific Metrics:
 Community 1:
-  Dominant Subfield: Electroweak Physics (38.81%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Gravitational Physics: 600 - Odds Ratio: 4.38, P-value: 0.0000
-    Beyond the Standard Model: 1690 - Odds Ratio: 3.33, P-value: 0.0000
-    Particle Physics: 2429 - Odds Ratio: 1.60, P-value: 0.0000
-    String Theory: 716 - Odds Ratio: 14.40, P-value: 0.0000
-    Electroweak Physics: 5586 - Odds Ratio: 2.58, P-value: 0.0000
-    Cosmology: 1487 - Odds Ratio: 3.70, P-value: 0.0000
-    Quantum Field Theory: 862 - Odds Ratio: 0.53, P-value: 0.0000
-    Supersymmetry: 4091 - Odds Ratio: 15.23, P-value: 0.0000
-    Quantum Chromodynamics: 3124 - Odds Ratio: 0.15, P-value: 0.0000
-    Neutrino Physics: 5110 - Odds Ratio: 9.61, P-value: 0.0000
-    General Theoretical Physics: 1207 - Odds Ratio: 1.99, P-value: 0.0000
-    Experimental QCD: 48 - Odds Ratio: 0.09, P-value: 0.0000
-    Unknown: 1035 - Odds Ratio: 0.47, P-value: 0.0000
-    Quantum Electrodynamics: 335 - Odds Ratio: 0.94, P-value: 0.3744
-    Non-Perturbative QCD: 35 - Odds Ratio: 0.06, P-value: 0.0000
-    Perturbative QCD: 59 - Odds Ratio: 0.07, P-value: 0.0000
-    Phenomenology of QCD: 2 - Odds Ratio: 0.01, P-value: 0.0000
+  count: 14395
+  subfields: defaultdict(<class 'int'>, {'Gravitational Physics': 600, 'Beyond the Standard Model': 1690, 'Particle Physics': 2429, 'String Theory': 716, 'Electroweak Physics': 5586, 'Cosmology': 1487, 'Quantum Field Theory': 862, 'Supersymmetry': 4091, 'Quantum Chromodynamics': 3124, 'Neutrino Physics': 5110, 'General Theoretical Physics': 1207, 'Experimental QCD': 48, 'Unknown': 1035, 'Quantum Electrodynamics': 335, 'Non-Perturbative QCD': 35, 'Perturbative QCD': 59, 'Phenomenology of QCD': 2})
+  edge_density: 0.0009189744308478654
+  avg_clustering: 0.14790413620879486
+  avg_degree_centrality: 0.0008097969479781596
+  avg_betweenness_centrality: 0.00012522290464378336
+  fisher_results: {'Gravitational Physics': {'odds_ratio': 4.3830109723549375, 'p_value': 4.42070984004757e-84}, 'Beyond the Standard Model': {'odds_ratio': 3.3256340531413846, 'p_value': 8.319835807158119e-172}, 'Particle Physics': {'odds_ratio': 1.598191794408243, 'p_value': 4.612301022043687e-50}, 'String Theory': {'odds_ratio': 14.396478153193526, 'p_value': 1.2573770282597058e-189}, 'Electroweak Physics': {'odds_ratio': 2.5829545037535424, 'p_value': 0.0}, 'Cosmology': {'odds_ratio': 3.696610800801733, 'p_value': 6.217627415370301e-172}, 'Quantum Field Theory': {'odds_ratio': 0.5321910929787436, 'p_value': 1.5100671421340548e-54}, 'Supersymmetry': {'odds_ratio': 15.229057928049787, 'p_value': 0.0}, 'Quantum Chromodynamics': {'odds_ratio': 0.15233349164883672, 'p_value': 0.0}, 'Neutrino Physics': {'odds_ratio': 9.605422310591939, 'p_value': 0.0}, 'General Theoretical Physics': {'odds_ratio': 1.985360104189722, 'p_value': 1.1421587437027308e-51}, 'Experimental QCD': {'odds_ratio': 0.0885046746189094, 'p_value': 1.4211107306323074e-115}, 'Unknown': {'odds_ratio': 0.46589895391951913, 'p_value': 3.575869972702391e-97}, 'Quantum Electrodynamics': {'odds_ratio': 0.936427453769559, 'p_value': 0.37444102656455325}, 'Non-Perturbative QCD': {'odds_ratio': 0.059576000253228664, 'p_value': 7.404857943821796e-140}, 'Perturbative QCD': {'odds_ratio': 0.07324615673724014, 'p_value': 4.874292343880865e-179}, 'Phenomenology of QCD': {'odds_ratio': 0.007596157278726269, 'p_value': 6.820048533500179e-82}}
 
 Community 2:
-  Dominant Subfield: Quantum Chromodynamics (72.15%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 5860 - Odds Ratio: 4.08, P-value: 0.0000
-    Experimental QCD: 710 - Odds Ratio: 35.06, P-value: 0.0000
-    Neutrino Physics: 590 - Odds Ratio: 0.29, P-value: 0.0000
-    Quantum Field Theory: 594 - Odds Ratio: 0.78, P-value: 0.0000
-    Unknown: 1031 - Odds Ratio: 1.19, P-value: 0.0000
-    Particle Physics: 1319 - Odds Ratio: 1.32, P-value: 0.0000
-    Perturbative QCD: 745 - Odds Ratio: 6.81, P-value: 0.0000
-    Electroweak Physics: 1317 - Odds Ratio: 0.43, P-value: 0.0000
-    Phenomenology of QCD: 207 - Odds Ratio: 4.38, P-value: 0.0000
-    Non-Perturbative QCD: 201 - Odds Ratio: 1.05, P-value: 0.5896
-    Gravitational Physics: 12 - Odds Ratio: 0.05, P-value: 0.0000
-    Cosmology: 17 - Odds Ratio: 0.02, P-value: 0.0000
-    Beyond the Standard Model: 75 - Odds Ratio: 0.09, P-value: 0.0000
-    Supersymmetry: 72 - Odds Ratio: 0.04, P-value: 0.0000
-    General Theoretical Physics: 239 - Odds Ratio: 0.40, P-value: 0.0000
-    Quantum Electrodynamics: 188 - Odds Ratio: 0.94, P-value: 0.5089
-    String Theory: 16 - Odds Ratio: 0.07, P-value: 0.0000
+  count: 8122
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 5860, 'Experimental QCD': 710, 'Neutrino Physics': 590, 'Quantum Field Theory': 594, 'Unknown': 1031, 'Particle Physics': 1319, 'Perturbative QCD': 745, 'Electroweak Physics': 1317, 'Phenomenology of QCD': 207, 'Non-Perturbative QCD': 201, 'Gravitational Physics': 12, 'Cosmology': 17, 'Beyond the Standard Model': 75, 'Supersymmetry': 72, 'General Theoretical Physics': 239, 'Quantum Electrodynamics': 188, 'String Theory': 16})
+  edge_density: 0.0012614396856023464
+  avg_clustering: 0.16511371223650725
+  avg_degree_centrality: 0.0006462561867260277
+  avg_betweenness_centrality: 8.336907832871411e-05
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': 4.076176678973449, 'p_value': 0.0}, 'Experimental QCD': {'odds_ratio': 35.05936319481921, 'p_value': 0.0}, 'Neutrino Physics': {'odds_ratio': 0.2904944605085302, 'p_value': 5.507577581391205e-211}, 'Quantum Field Theory': {'odds_ratio': 0.7819520583106855, 'p_value': 1.5992311274309997e-07}, 'Unknown': {'odds_ratio': 1.189999836771163, 'p_value': 8.684911758143069e-06}, 'Particle Physics': {'odds_ratio': 1.3214117786388149, 'p_value': 7.226717887896228e-15}, 'Perturbative QCD': {'odds_ratio': 6.812347718472412, 'p_value': 1.0421581395174931e-208}, 'Electroweak Physics': {'odds_ratio': 0.42701513667839364, 'p_value': 1.612908464643397e-165}, 'Phenomenology of QCD': {'odds_ratio': 4.375525789539333, 'p_value': 9.858446188490657e-43}, 'Non-Perturbative QCD': {'odds_ratio': 1.045749701626243, 'p_value': 0.5895673266955137}, 'Gravitational Physics': {'odds_ratio': 0.04826385293813123, 'p_value': 2.0026838778134933e-74}, 'Cosmology': {'odds_ratio': 0.024561291063450223, 'p_value': 1.2197559327276926e-219}, 'Beyond the Standard Model': {'odds_ratio': 0.09372499327954543, 'p_value': 1.2878294558393722e-190}, 'Supersymmetry': {'odds_ratio': 0.043216324807297146, 'p_value': 0.0}, 'General Theoretical Physics': {'odds_ratio': 0.401326840385465, 'p_value': 1.7995912908206066e-47}, 'Quantum Electrodynamics': {'odds_ratio': 0.9440472772085314, 'p_value': 0.5088760599658975}, 'String Theory': {'odds_ratio': 0.06549953095609946, 'p_value': 1.2416885828320368e-68}}
 
 Community 3:
-  Dominant Subfield: Quantum Chromodynamics (65.83%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 3103 - Odds Ratio: 2.49, P-value: 0.0000
-    Neutrino Physics: 319 - Odds Ratio: 0.30, P-value: 0.0000
-    Electroweak Physics: 1331 - Odds Ratio: 1.03, P-value: 0.3532
-    Quantum Field Theory: 394 - Odds Ratio: 0.95, P-value: 0.3452
-    Beyond the Standard Model: 462 - Odds Ratio: 1.51, P-value: 0.0000
-    Supersymmetry: 251 - Odds Ratio: 0.33, P-value: 0.0000
-    Perturbative QCD: 194 - Odds Ratio: 1.32, P-value: 0.0007
-    Particle Physics: 483 - Odds Ratio: 0.69, P-value: 0.0000
-    Non-Perturbative QCD: 193 - Odds Ratio: 1.97, P-value: 0.0000
-    Unknown: 559 - Odds Ratio: 1.06, P-value: 0.2070
-    Gravitational Physics: 17 - Odds Ratio: 0.13, P-value: 0.0000
-    General Theoretical Physics: 123 - Odds Ratio: 0.38, P-value: 0.0000
-    Experimental QCD: 7 - Odds Ratio: 0.06, P-value: 0.0000
-    Quantum Electrodynamics: 103 - Odds Ratio: 0.89, P-value: 0.2839
-    Cosmology: 15 - Odds Ratio: 0.04, P-value: 0.0000
-    String Theory: 20 - Odds Ratio: 0.16, P-value: 0.0000
-    Phenomenology of QCD: 3 - Odds Ratio: 0.05, P-value: 0.0000
+  count: 4714
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 3103, 'Neutrino Physics': 319, 'Electroweak Physics': 1331, 'Quantum Field Theory': 394, 'Beyond the Standard Model': 462, 'Supersymmetry': 251, 'Perturbative QCD': 194, 'Particle Physics': 483, 'Non-Perturbative QCD': 193, 'Unknown': 559, 'Gravitational Physics': 17, 'General Theoretical Physics': 123, 'Experimental QCD': 7, 'Quantum Electrodynamics': 103, 'Cosmology': 15, 'String Theory': 20, 'Phenomenology of QCD': 3})
+  edge_density: 0.00268586126656957
+  avg_clustering: 0.1577633576608313
+  avg_degree_centrality: 0.0008427270744909596
+  avg_betweenness_centrality: 0.00019113706305873683
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': 2.485413787885828, 'p_value': 5.895625807126627e-178}, 'Neutrino Physics': {'odds_ratio': 0.2954747264490326, 'p_value': 3.414969590215615e-124}, 'Electroweak Physics': {'odds_ratio': 1.0332105475503846, 'p_value': 0.353175515091181}, 'Quantum Field Theory': {'odds_ratio': 0.9464732180693279, 'p_value': 0.3451838222632527}, 'Beyond the Standard Model': {'odds_ratio': 1.5096121105265903, 'p_value': 2.2907749020950243e-13}, 'Supersymmetry': {'odds_ratio': 0.3292739485442396, 'p_value': 1.0070552977800297e-81}, 'Perturbative QCD': {'odds_ratio': 1.3235684400411782, 'p_value': 0.0006848061619116123}, 'Particle Physics': {'odds_ratio': 0.6934176065443318, 'p_value': 8.42663331453658e-14}, 'Non-Perturbative QCD': {'odds_ratio': 1.9660141910481546, 'p_value': 2.6145544567393402e-14}, 'Unknown': {'odds_ratio': 1.0638804118836416, 'p_value': 0.20698365581767875}, 'Gravitational Physics': {'odds_ratio': 0.13462893606047613, 'p_value': 1.105154923479348e-30}, 'General Theoretical Physics': {'odds_ratio': 0.37850534801532054, 'p_value': 5.515737687246097e-32}, 'Experimental QCD': {'odds_ratio': 0.055757451153738084, 'p_value': 8.823399446730508e-40}, 'Quantum Electrodynamics': {'odds_ratio': 0.8880225832026765, 'p_value': 0.2838542702812913}, 'Cosmology': {'odds_ratio': 0.04256889444204749, 'p_value': 1.6667944190777467e-112}, 'String Theory': {'odds_ratio': 0.161027856716623, 'p_value': 1.0892594403825044e-27}, 'Phenomenology of QCD': {'odds_ratio': 0.05198712743381877, 'p_value': 2.427086428215999e-19}}
 
 Community 4:
-  Dominant Subfield: Quantum Chromodynamics (42.73%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Cosmology: 551 - Odds Ratio: 3.16, P-value: 0.0000
-    Electroweak Physics: 983 - Odds Ratio: 0.89, P-value: 0.0019
-    Quantum Chromodynamics: 1643 - Odds Ratio: 0.84, P-value: 0.0000
-    Unknown: 636 - Odds Ratio: 1.66, P-value: 0.0000
-    Supersymmetry: 175 - Odds Ratio: 0.28, P-value: 0.0000
-    Particle Physics: 314 - Odds Ratio: 0.53, P-value: 0.0000
-    Quantum Field Theory: 703 - Odds Ratio: 2.75, P-value: 0.0000
-    Beyond the Standard Model: 135 - Odds Ratio: 0.44, P-value: 0.0000
-    General Theoretical Physics: 317 - Odds Ratio: 1.46, P-value: 0.0000
-    Neutrino Physics: 100 - Odds Ratio: 0.11, P-value: 0.0000
-    String Theory: 31 - Odds Ratio: 0.32, P-value: 0.0000
-    Gravitational Physics: 152 - Odds Ratio: 1.91, P-value: 0.0000
-    Non-Perturbative QCD: 201 - Odds Ratio: 2.65, P-value: 0.0000
-    Quantum Electrodynamics: 161 - Odds Ratio: 1.95, P-value: 0.0000
-    Phenomenology of QCD: 112 - Odds Ratio: 3.63, P-value: 0.0000
-    Perturbative QCD: 46 - Odds Ratio: 0.33, P-value: 0.0000
-    Experimental QCD: 8 - Odds Ratio: 0.08, P-value: 0.0000
+  count: 3845
+  subfields: defaultdict(<class 'int'>, {'Cosmology': 551, 'Electroweak Physics': 983, 'Quantum Chromodynamics': 1643, 'Unknown': 636, 'Supersymmetry': 175, 'Particle Physics': 314, 'Quantum Field Theory': 703, 'Beyond the Standard Model': 135, 'General Theoretical Physics': 317, 'Neutrino Physics': 100, 'String Theory': 31, 'Gravitational Physics': 152, 'Non-Perturbative QCD': 201, 'Quantum Electrodynamics': 161, 'Phenomenology of QCD': 112, 'Perturbative QCD': 46, 'Experimental QCD': 8})
+  edge_density: 0.0021909070119579058
+  avg_clustering: 0.18377007668511813
+  avg_degree_centrality: 0.0005442101584014067
+  avg_betweenness_centrality: 0.00013265347798945083
+  fisher_results: {'Cosmology': {'odds_ratio': 3.15665749042586, 'p_value': 3.0268906479069595e-89}, 'Electroweak Physics': {'odds_ratio': 0.8862426935434251, 'p_value': 0.0019489331650607267}, 'Quantum Chromodynamics': {'odds_ratio': 0.8353057768740063, 'p_value': 1.8462037556152094e-07}, 'Unknown': {'odds_ratio': 1.661437765575273, 'p_value': 4.7539851173583085e-25}, 'Supersymmetry': {'odds_ratio': 0.28292676773270914, 'p_value': 1.3111435834123122e-80}, 'Particle Physics': {'odds_ratio': 0.5335396229319546, 'p_value': 2.705912855643984e-28}, 'Quantum Field Theory': {'odds_ratio': 2.7460491622503973, 'p_value': 1.6072653048666794e-89}, 'Beyond the Standard Model': {'odds_ratio': 0.4430763624584987, 'p_value': 9.829108204897077e-24}, 'General Theoretical Physics': {'odds_ratio': 1.4616462164168254, 'p_value': 8.890675467300516e-09}, 'Neutrino Physics': {'odds_ratio': 0.1076448921953843, 'p_value': 3.4726973505660014e-213}, 'String Theory': {'odds_ratio': 0.32107545731390946, 'p_value': 2.8728077165915014e-13}, 'Gravitational Physics': {'odds_ratio': 1.9149105621127411, 'p_value': 3.702422531788384e-11}, 'Non-Perturbative QCD': {'odds_ratio': 2.6500190255415705, 'p_value': 2.988751311812967e-27}, 'Quantum Electrodynamics': {'odds_ratio': 1.9469657062217884, 'p_value': 2.9392293209238617e-12}, 'Phenomenology of QCD': {'odds_ratio': 3.6252046313658957, 'p_value': 2.18360201679559e-24}, 'Perturbative QCD': {'odds_ratio': 0.3305104544853545, 'p_value': 7.524198525916163e-18}, 'Experimental QCD': {'odds_ratio': 0.08061584503935905, 'p_value': 1.5289974337097096e-29}}
 
 Community 5:
-  Dominant Subfield: Quantum Chromodynamics (75.32%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    General Theoretical Physics: 200 - Odds Ratio: 1.25, P-value: 0.0051
-    Electroweak Physics: 285 - Odds Ratio: 0.28, P-value: 0.0000
-    Quantum Chromodynamics: 2054 - Odds Ratio: 3.85, P-value: 0.0000
-    Unknown: 391 - Odds Ratio: 1.35, P-value: 0.0000
-    Quantum Field Theory: 442 - Odds Ratio: 2.20, P-value: 0.0000
-    Beyond the Standard Model: 93 - Odds Ratio: 0.44, P-value: 0.0000
-    Neutrino Physics: 60 - Odds Ratio: 0.09, P-value: 0.0000
-    Perturbative QCD: 41 - Odds Ratio: 0.43, P-value: 0.0000
-    Non-Perturbative QCD: 179 - Odds Ratio: 3.38, P-value: 0.0000
-    Quantum Electrodynamics: 41 - Odds Ratio: 0.60, P-value: 0.0007
-    Cosmology: 13 - Odds Ratio: 0.07, P-value: 0.0000
-    Particle Physics: 62 - Odds Ratio: 0.14, P-value: 0.0000
-    Gravitational Physics: 7 - Odds Ratio: 0.10, P-value: 0.0000
-    Supersymmetry: 10 - Odds Ratio: 0.02, P-value: 0.0000
-    Experimental QCD: 6 - Odds Ratio: 0.09, P-value: 0.0000
-    Phenomenology of QCD: 5 - Odds Ratio: 0.16, P-value: 0.0000
-    String Theory: 5 - Odds Ratio: 0.07, P-value: 0.0000
+  count: 2727
+  subfields: defaultdict(<class 'int'>, {'General Theoretical Physics': 200, 'Electroweak Physics': 285, 'Quantum Chromodynamics': 2054, 'Unknown': 391, 'Quantum Field Theory': 442, 'Beyond the Standard Model': 93, 'Neutrino Physics': 60, 'Perturbative QCD': 41, 'Non-Perturbative QCD': 179, 'Quantum Electrodynamics': 41, 'Cosmology': 13, 'Particle Physics': 62, 'Gravitational Physics': 7, 'Supersymmetry': 10, 'Experimental QCD': 6, 'Phenomenology of QCD': 5, 'String Theory': 5})
+  edge_density: 0.002392181013161233
+  avg_clustering: 0.16652403087222173
+  avg_degree_centrality: 0.000465849643776555
+  avg_betweenness_centrality: 0.00016530346210836606
+  fisher_results: {'General Theoretical Physics': {'odds_ratio': 1.2497846477045274, 'p_value': 0.005050526094490171}, 'Electroweak Physics': {'odds_ratio': 0.2837582148484769, 'p_value': 2.2872179277384334e-115}, 'Quantum Chromodynamics': {'odds_ratio': 3.848077694191665, 'p_value': 1.5223787203929287e-220}, 'Unknown': {'odds_ratio': 1.3469413241359969, 'p_value': 4.5024167805124246e-07}, 'Quantum Field Theory': {'odds_ratio': 2.1977543487390316, 'p_value': 1.428952314237315e-39}, 'Beyond the Standard Model': {'odds_ratio': 0.43832228312852684, 'p_value': 8.796384480342227e-18}, 'Neutrino Physics': {'odds_ratio': 0.09405084540270955, 'p_value': 6.898064508716311e-159}, 'Perturbative QCD': {'odds_ratio': 0.43032817121738953, 'p_value': 3.1191504648915746e-09}, 'Non-Perturbative QCD': {'odds_ratio': 3.3793201397368064, 'p_value': 4.174840185372535e-36}, 'Quantum Electrodynamics': {'odds_ratio': 0.5964432611676179, 'p_value': 0.0007106445502192841}, 'Cosmology': {'odds_ratio': 0.06837963639399695, 'p_value': 6.983141708748678e-58}, 'Particle Physics': {'odds_ratio': 0.1363418436652274, 'p_value': 1.5257732926184253e-101}, 'Gravitational Physics': {'odds_ratio': 0.10095002602811036, 'p_value': 5.697427508904932e-20}, 'Supersymmetry': {'odds_ratio': 0.021817136877812733, 'p_value': 2.1492634467301774e-157}, 'Experimental QCD': {'odds_ratio': 0.08821139135475511, 'p_value': 1.3251311901842885e-20}, 'Phenomenology of QCD': {'odds_ratio': 0.1609704481589197, 'p_value': 4.365619740620316e-08}, 'String Theory': {'odds_ratio': 0.07271392208610115, 'p_value': 9.825893785104951e-22}}
 
 Community 6:
-  Dominant Subfield: Quantum Chromodynamics (48.16%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Perturbative QCD: 45 - Odds Ratio: 2.46, P-value: 0.0000
-    Quantum Chromodynamics: 288 - Odds Ratio: 1.06, P-value: 0.4822
-    Particle Physics: 85 - Odds Ratio: 1.05, P-value: 0.6735
-    Unknown: 224 - Odds Ratio: 4.92, P-value: 0.0000
-    Electroweak Physics: 24 - Odds Ratio: 0.11, P-value: 0.0000
-    Quantum Field Theory: 9 - Odds Ratio: 0.16, P-value: 0.0000
-    Non-Perturbative QCD: 7 - Odds Ratio: 0.48, P-value: 0.0567
-    Neutrino Physics: 12 - Odds Ratio: 0.09, P-value: 0.0000
-    Quantum Electrodynamics: 2 - Odds Ratio: 0.13, P-value: 0.0001
-    Phenomenology of QCD: 35 - Odds Ratio: 6.35, P-value: 0.0000
-    Beyond the Standard Model: 1 - Odds Ratio: 0.02, P-value: 0.0000
-    Supersymmetry: 1 - Odds Ratio: 0.01, P-value: 0.0000
-    Experimental QCD: 3 - Odds Ratio: 0.21, P-value: 0.0012
-    Cosmology: 1 - Odds Ratio: 0.03, P-value: 0.0000
+  count: 598
+  subfields: defaultdict(<class 'int'>, {'Perturbative QCD': 45, 'Quantum Chromodynamics': 288, 'Particle Physics': 85, 'Unknown': 224, 'Electroweak Physics': 24, 'Quantum Field Theory': 9, 'Non-Perturbative QCD': 7, 'Neutrino Physics': 12, 'Quantum Electrodynamics': 2, 'Phenomenology of QCD': 35, 'Beyond the Standard Model': 1, 'Supersymmetry': 1, 'Experimental QCD': 3, 'Cosmology': 1})
+  edge_density: 0.006660952476989182
+  avg_clustering: 0.19195129528456814
+  avg_degree_centrality: 0.00026871062948768775
+  avg_betweenness_centrality: 1.6974794341992025e-05
+  fisher_results: {'Perturbative QCD': {'odds_ratio': 2.4623600051951686, 'p_value': 2.996136724183872e-07}, 'Quantum Chromodynamics': {'odds_ratio': 1.0620527859237536, 'p_value': 0.48222953281399933}, 'Particle Physics': {'odds_ratio': 1.0531405557350701, 'p_value': 0.6735109835917652}, 'Unknown': {'odds_ratio': 4.920204149175216, 'p_value': 2.0648075490367333e-63}, 'Electroweak Physics': {'odds_ratio': 0.10706885096361528, 'p_value': 1.2107094381641404e-52}, 'Quantum Field Theory': {'odds_ratio': 0.1572273636557145, 'p_value': 4.776598508606323e-14}, 'Non-Perturbative QCD': {'odds_ratio': 0.47851099830795263, 'p_value': 0.056669976053961735}, 'Neutrino Physics': {'odds_ratio': 0.09182927434428534, 'p_value': 1.9834905342472978e-35}, 'Quantum Electrodynamics': {'odds_ratio': 0.1334023542302827, 'p_value': 0.00012044591404167647}, 'Phenomenology of QCD': {'odds_ratio': 6.352556592721363, 'p_value': 3.2246725710257355e-16}, 'Beyond the Standard Model': {'odds_ratio': 0.021403010724618764, 'p_value': 4.4921313487856745e-18}, 'Supersymmetry': {'odds_ratio': 0.010681394805404686, 'p_value': 4.467501051951366e-36}, 'Experimental QCD': {'odds_ratio': 0.21468376824413976, 'p_value': 0.0011981963695094381}, 'Cosmology': {'odds_ratio': 0.025467832399867277, 'p_value': 3.1629201879490465e-15}}
 
 Community 7:
-  Dominant Subfield: Unknown (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Unknown: 6 - Odds Ratio: inf, P-value: 0.0000
+  count: 6
+  subfields: defaultdict(<class 'int'>, {'Unknown': 6})
+  edge_density: 0.26666666666666666
+  avg_clustering: 0.2916666666666667
+  avg_degree_centrality: 7.719399816664254e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Unknown': {'odds_ratio': inf, 'p_value': 2.088630298993854e-06}}
 
 Community 8:
-  Dominant Subfield: Particle Physics (40.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Particle Physics: 2 - Odds Ratio: 4.23, P-value: 0.1397
-    Unknown: 2 - Odds Ratio: 5.23, P-value: 0.1014
-    Quantum Chromodynamics: 2 - Odds Ratio: 0.76, P-value: 1.0000
+  count: 5
+  subfields: defaultdict(<class 'int'>, {'Particle Physics': 2, 'Unknown': 2, 'Quantum Chromodynamics': 2})
+  edge_density: 0.3
+  avg_clustering: 0.26666666666666666
+  avg_degree_centrality: 6.94745983499783e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Particle Physics': {'odds_ratio': 4.234851709947495, 'p_value': 0.1396733025316006}, 'Unknown': {'odds_ratio': 5.2287079706434545, 'p_value': 0.10138803633678083}, 'Quantum Chromodynamics': {'odds_ratio': 0.761296457067262, 'p_value': 1.0}}
 
 Community 9:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Non-Perturbative QCD: 3 - Odds Ratio: 61.38, P-value: 0.0001
-    Quantum Chromodynamics: 5 - Odds Ratio: inf, P-value: 0.0222
+  count: 5
+  subfields: defaultdict(<class 'int'>, {'Non-Perturbative QCD': 3, 'Quantum Chromodynamics': 5})
+  edge_density: 0.25
+  avg_clustering: 0.23333333333333334
+  avg_degree_centrality: 5.78954986249819e-05
+  avg_betweenness_centrality: 3.3519857934797304e-10
+  fisher_results: {'Non-Perturbative QCD': {'odds_ratio': 61.37803398058252, 'p_value': 0.00013185996250640792}, 'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.02217022730504701}}
 
 Community 10:
-  Dominant Subfield: Electroweak Physics (60.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 3 - Odds Ratio: 3.92, P-value: 0.1336
-    Particle Physics: 2 - Odds Ratio: 4.23, P-value: 0.1397
-    Neutrino Physics: 2 - Odds Ratio: 3.05, P-value: 0.2214
-    Quantum Chromodynamics: 1 - Odds Ratio: 0.29, P-value: 0.3804
-    Unknown: 2 - Odds Ratio: 5.23, P-value: 0.1014
+  count: 5
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 3, 'Particle Physics': 2, 'Neutrino Physics': 2, 'Quantum Chromodynamics': 1, 'Unknown': 2})
+  edge_density: 0.2
+  avg_clustering: 0.0
+  avg_degree_centrality: 4.631639889998553e-05
+  avg_betweenness_centrality: 6.703971586959461e-10
+  fisher_results: {'Electroweak Physics': {'odds_ratio': 3.9224489795918367, 'p_value': 0.13360718003811878}, 'Particle Physics': {'odds_ratio': 4.234851709947495, 'p_value': 0.1396733025316006}, 'Neutrino Physics': {'odds_ratio': 3.0474193548387096, 'p_value': 0.22140749265318296}, 'Quantum Chromodynamics': {'odds_ratio': 0.2854529670738513, 'p_value': 0.3804450742709217}, 'Unknown': {'odds_ratio': 5.2287079706434545, 'p_value': 0.10138803633678083}}
 
 Community 11:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 4 - Odds Ratio: inf, P-value: 0.0475
-    Particle Physics: 1 - Odds Ratio: 2.12, P-value: 0.4429
+  count: 4
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 4, 'Particle Physics': 1})
+  edge_density: 0.3333333333333333
+  avg_clustering: 0.2916666666666667
+  avg_degree_centrality: 5.789549862498191e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.04749466581313158}, 'Particle Physics': {'odds_ratio': 2.116975242959495, 'p_value': 0.44288919080736655}}
 
 Community 12:
-  Dominant Subfield: Quantum Chromodynamics (66.67%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: 2.28, P-value: 0.6019
-    Unknown: 1 - Odds Ratio: 3.92, P-value: 0.3024
+  count: 3
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2, 'Unknown': 1})
+  edge_density: 0.5
+  avg_clustering: 0.5
+  avg_degree_centrality: 5.789549862498191e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': 2.284137417834553, 'p_value': 0.6018859217561935}, 'Unknown': {'odds_ratio': 3.9206552341950345, 'p_value': 0.30243751111121364}}
 
 Community 13:
-  Dominant Subfield: General Theoretical Physics (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    General Theoretical Physics: 2 - Odds Ratio: 15.50, P-value: 0.0203
-    Unknown: 2 - Odds Ratio: 7.84, P-value: 0.0657
-    Quantum Field Theory: 1 - Odds Ratio: 3.49, P-value: 0.3061
-    Particle Physics: 1 - Odds Ratio: 2.12, P-value: 0.4429
+  count: 4
+  subfields: defaultdict(<class 'int'>, {'General Theoretical Physics': 2, 'Unknown': 2, 'Quantum Field Theory': 1, 'Particle Physics': 1})
+  edge_density: 0.25
+  avg_clustering: 0.0
+  avg_degree_centrality: 4.342162396873643e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'General Theoretical Physics': {'odds_ratio': 15.50358337314859, 'p_value': 0.020314758165080046}, 'Unknown': {'odds_ratio': 7.84331797235023, 'p_value': 0.06568266585364677}, 'Quantum Field Theory': {'odds_ratio': 3.4855721393034824, 'p_value': 0.3060988734140883}, 'Particle Physics': {'odds_ratio': 2.116975242959495, 'p_value': 0.44288919080736655}}
 
 Community 14:
-  Dominant Subfield: Unknown (66.67%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 1 - Odds Ratio: 1.31, P-value: 1.0000
-    Unknown: 2 - Odds Ratio: 15.69, P-value: 0.0355
+  count: 3
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 1, 'Unknown': 2})
+  edge_density: 0.3333333333333333
+  avg_clustering: 0.0
+  avg_degree_centrality: 3.859699908332127e-05
+  avg_betweenness_centrality: 2.793321494566442e-10
+  fisher_results: {'Electroweak Physics': {'odds_ratio': 1.3072093753269856, 'p_value': 1.0}, 'Unknown': {'odds_ratio': 15.687147977470557, 'p_value': 0.035489390608141026}}
 
 Community 15:
-  Dominant Subfield: Quantum Electrodynamics (33.33%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Electrodynamics: 1 - Odds Ratio: 20.21, P-value: 0.0708
-    Quantum Field Theory: 1 - Odds Ratio: 5.23, P-value: 0.2397
-    Unknown: 1 - Odds Ratio: 3.92, P-value: 0.3024
+  count: 3
+  subfields: defaultdict(<class 'int'>, {'Quantum Electrodynamics': 1, 'Quantum Field Theory': 1, 'Unknown': 1})
+  edge_density: 0.3333333333333333
+  avg_clustering: 0.0
+  avg_degree_centrality: 3.859699908332127e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Electrodynamics': {'odds_ratio': 20.209232613908874, 'p_value': 0.07077546883383339}, 'Quantum Field Theory': {'odds_ratio': 5.228524046434494, 'p_value': 0.2397174924459307}, 'Unknown': {'odds_ratio': 3.9206552341950345, 'p_value': 0.30243751111121364}}
 
 Community 16:
-  Dominant Subfield: Cosmology (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Cosmology: 3 - Odds Ratio: inf, P-value: 0.0002
+  count: 3
+  subfields: defaultdict(<class 'int'>, {'Cosmology': 3})
+  edge_density: 0.3333333333333333
+  avg_clustering: 0.0
+  avg_degree_centrality: 3.859699908332127e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Cosmology': {'odds_ratio': inf, 'p_value': 0.0002230470030505059}}
 
 Community 17:
-  Dominant Subfield: Gravitational Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Gravitational Physics: 3 - Odds Ratio: inf, P-value: 0.0000
-    Electroweak Physics: 1 - Odds Ratio: 1.31, P-value: 1.0000
+  count: 3
+  subfields: defaultdict(<class 'int'>, {'Gravitational Physics': 3, 'Electroweak Physics': 1})
+  edge_density: 0.3333333333333333
+  avg_clustering: 0.0
+  avg_degree_centrality: 3.859699908332127e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Gravitational Physics': {'odds_ratio': inf, 'p_value': 1.2280574660945e-05}, 'Electroweak Physics': {'odds_ratio': 1.3072093753269856, 'p_value': 1.0}}
 
 Community 18:
-  Dominant Subfield: Electroweak Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 3 - Odds Ratio: inf, P-value: 0.0212
-    Beyond the Standard Model: 1 - Odds Ratio: 6.51, P-value: 0.1992
-    Quantum Chromodynamics: 2 - Odds Ratio: 2.28, P-value: 0.6019
-    Particle Physics: 1 - Odds Ratio: 3.18, P-value: 0.3551
+  count: 3
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 3, 'Beyond the Standard Model': 1, 'Quantum Chromodynamics': 2, 'Particle Physics': 1})
+  edge_density: 0.3333333333333333
+  avg_clustering: 0.0
+  avg_degree_centrality: 3.859699908332127e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Electroweak Physics': {'odds_ratio': inf, 'p_value': 0.021174304907376477}, 'Beyond the Standard Model': {'odds_ratio': 6.509537337662338, 'p_value': 0.19915680847199438}, 'Quantum Chromodynamics': {'odds_ratio': 2.284137417834553, 'p_value': 0.6018859217561935}, 'Particle Physics': {'odds_ratio': 3.175569270057459, 'p_value': 0.3551493254049145}}
 
 Community 19:
-  Dominant Subfield: Non-Perturbative QCD (66.67%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Electrodynamics: 1 - Odds Ratio: 20.21, P-value: 0.0708
-    Non-Perturbative QCD: 2 - Odds Ratio: 81.74, P-value: 0.0017
-    Quantum Chromodynamics: 2 - Odds Ratio: 2.28, P-value: 0.6019
-    Gravitational Physics: 1 - Odds Ratio: 21.17, P-value: 0.0677
-    Beyond the Standard Model: 1 - Odds Ratio: 6.51, P-value: 0.1992
-    General Theoretical Physics: 1 - Odds Ratio: 7.75, P-value: 0.1711
-    Quantum Field Theory: 1 - Odds Ratio: 5.23, P-value: 0.2397
+  count: 3
+  subfields: defaultdict(<class 'int'>, {'Quantum Electrodynamics': 1, 'Non-Perturbative QCD': 2, 'Quantum Chromodynamics': 2, 'Gravitational Physics': 1, 'Beyond the Standard Model': 1, 'General Theoretical Physics': 1, 'Quantum Field Theory': 1})
+  edge_density: 0.3333333333333333
+  avg_clustering: 0.0
+  avg_degree_centrality: 3.859699908332127e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Electrodynamics': {'odds_ratio': 20.209232613908874, 'p_value': 0.07077546883383339}, 'Non-Perturbative QCD': {'odds_ratio': 81.74060606060605, 'p_value': 0.0016898707584174961}, 'Quantum Chromodynamics': {'odds_ratio': 2.284137417834553, 'p_value': 0.6018859217561935}, 'Gravitational Physics': {'odds_ratio': 21.170639899623588, 'p_value': 0.06771236664113117}, 'Beyond the Standard Model': {'odds_ratio': 6.509537337662338, 'p_value': 0.19915680847199438}, 'General Theoretical Physics': {'odds_ratio': 7.7480897803247375, 'p_value': 0.1711260088982159}, 'Quantum Field Theory': {'odds_ratio': 5.228524046434494, 'p_value': 0.2397174924459307}}
 
 Community 20:
-  Dominant Subfield: Cosmology (66.67%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Cosmology: 2 - Odds Ratio: 30.99, P-value: 0.0106
-    Unknown: 1 - Odds Ratio: 3.92, P-value: 0.3024
-    Gravitational Physics: 1 - Odds Ratio: 21.17, P-value: 0.0677
+  count: 3
+  subfields: defaultdict(<class 'int'>, {'Cosmology': 2, 'Unknown': 1, 'Gravitational Physics': 1})
+  edge_density: 0.3333333333333333
+  avg_clustering: 0.0
+  avg_degree_centrality: 3.859699908332127e-05
+  avg_betweenness_centrality: 2.793321494566442e-10
+  fisher_results: {'Cosmology': {'odds_ratio': 30.99235912129895, 'p_value': 0.010592495783836923}, 'Unknown': {'odds_ratio': 3.9206552341950345, 'p_value': 0.30243751111121364}, 'Gravitational Physics': {'odds_ratio': 21.170639899623588, 'p_value': 0.06771236664113117}}
 
 Community 21:
-  Dominant Subfield: Unknown (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Unknown: 2 - Odds Ratio: inf, P-value: 0.0128
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Unknown': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Unknown': {'odds_ratio': inf, 'p_value': 0.012794254948524564}}
 
 Community 22:
-  Dominant Subfield: Unknown (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
-    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Unknown': 1, 'Quantum Field Theory': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Unknown': {'odds_ratio': 7.8415664192475045, 'p_value': 0.2134548042768561}, 'Quantum Field Theory': {'odds_ratio': 10.457379767827529, 'p_value': 0.1669881076837169}}
 
 Community 23:
-  Dominant Subfield: Non-Perturbative QCD (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Electrodynamics: 1 - Odds Ratio: 40.42, P-value: 0.0478
-    Non-Perturbative QCD: 2 - Odds Ratio: inf, P-value: 0.0006
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
-    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Electrodynamics': 1, 'Non-Perturbative QCD': 2, 'Quantum Chromodynamics': 2, 'Electroweak Physics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Electrodynamics': {'odds_ratio': 40.41966426858513, 'p_value': 0.04775780341736451}, 'Non-Perturbative QCD': {'odds_ratio': inf, 'p_value': 0.0005724039093053086}, 'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}, 'Electroweak Physics': {'odds_ratio': 2.614523385999791, 'p_value': 0.4768061282685281}}
 
 Community 24:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
-    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2, 'Neutrino Physics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}, 'Neutrino Physics': {'odds_ratio': 4.57071440090308, 'p_value': 0.32683118249276716}}
 
 Community 25:
-  Dominant Subfield: Non-Perturbative QCD (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    General Theoretical Physics: 1 - Odds Ratio: 15.50, P-value: 0.1176
-    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
-    Non-Perturbative QCD: 2 - Odds Ratio: inf, P-value: 0.0006
-    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'General Theoretical Physics': 1, 'Quantum Field Theory': 1, 'Non-Perturbative QCD': 2, 'Quantum Chromodynamics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'General Theoretical Physics': {'odds_ratio': 15.49665711556829, 'p_value': 0.1176115396893578}, 'Quantum Field Theory': {'odds_ratio': 10.457379767827529, 'p_value': 0.1669881076837169}, 'Non-Perturbative QCD': {'odds_ratio': inf, 'p_value': 0.0005724039093053086}, 'Quantum Chromodynamics': {'odds_ratio': 1.1419978917343585, 'p_value': 1.0}}
 
 Community 26:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
-    Perturbative QCD: 1 - Odds Ratio: 29.57, P-value: 0.0644
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2, 'Perturbative QCD': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}, 'Perturbative QCD': {'odds_ratio': 29.56991150442478, 'p_value': 0.06440699090911124}}
 
 Community 27:
-  Dominant Subfield: Quantum Field Theory (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
-    Quantum Field Theory: 2 - Odds Ratio: inf, P-value: 0.0076
-    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
-    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
-    Beyond the Standard Model: 1 - Odds Ratio: 13.02, P-value: 0.1376
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Neutrino Physics': 1, 'Quantum Field Theory': 2, 'Quantum Chromodynamics': 1, 'Electroweak Physics': 1, 'Beyond the Standard Model': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Neutrino Physics': {'odds_ratio': 4.57071440090308, 'p_value': 0.32683118249276716}, 'Quantum Field Theory': {'odds_ratio': inf, 'p_value': 0.007619661667293326}, 'Quantum Chromodynamics': {'odds_ratio': 1.1419978917343585, 'p_value': 1.0}, 'Electroweak Physics': {'odds_ratio': 2.614523385999791, 'p_value': 0.4768061282685281}, 'Beyond the Standard Model': {'odds_ratio': 13.019480519480519, 'p_value': 0.13761877838637657}}
 
 Community 28:
-  Dominant Subfield: Quantum Chromodynamics (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
-    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 1, 'Unknown': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': 1.1419978917343585, 'p_value': 1.0}, 'Unknown': {'odds_ratio': 7.8415664192475045, 'p_value': 0.2134548042768561}}
 
 Community 29:
-  Dominant Subfield: Electroweak Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Electroweak Physics': {'odds_ratio': inf, 'p_value': 0.07654302937635131}}
 
 Community 30:
-  Dominant Subfield: Gravitational Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Gravitational Physics: 2 - Odds Ratio: inf, P-value: 0.0005
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Gravitational Physics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Gravitational Physics': {'odds_ratio': inf, 'p_value': 0.0005329399134267388}}
 
 Community 31:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 32:
-  Dominant Subfield: Neutrino Physics (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
-    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Neutrino Physics': 1, 'Quantum Chromodynamics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Neutrino Physics': {'odds_ratio': 4.57071440090308, 'p_value': 0.32683118249276716}, 'Quantum Chromodynamics': {'odds_ratio': 1.1419978917343585, 'p_value': 1.0}}
 
 Community 33:
-  Dominant Subfield: Neutrino Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Neutrino Physics: 2 - Odds Ratio: inf, P-value: 0.0322
-    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Neutrino Physics': 2, 'Electroweak Physics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Neutrino Physics': {'odds_ratio': inf, 'p_value': 0.03222630607320279}, 'Electroweak Physics': {'odds_ratio': inf, 'p_value': 0.07654302937635131}}
 
 Community 34:
-  Dominant Subfield: Unknown (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
-    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Unknown': 1, 'Electroweak Physics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Unknown': {'odds_ratio': 7.8415664192475045, 'p_value': 0.2134548042768561}, 'Electroweak Physics': {'odds_ratio': 2.614523385999791, 'p_value': 0.4768061282685281}}
 
 Community 35:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 36:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 37:
-  Dominant Subfield: Cosmology (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Cosmology: 2 - Odds Ratio: inf, P-value: 0.0037
-    Gravitational Physics: 1 - Odds Ratio: 42.34, P-value: 0.0457
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Cosmology': 2, 'Gravitational Physics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Cosmology': {'odds_ratio': inf, 'p_value': 0.0036795299299793105}, 'Gravitational Physics': {'odds_ratio': 42.342534504391466, 'p_value': 0.04566633062440687}}
 
 Community 38:
-  Dominant Subfield: Unknown (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Unknown: 2 - Odds Ratio: inf, P-value: 0.0128
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Unknown': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Unknown': {'odds_ratio': inf, 'p_value': 0.012794254948524564}}
 
 Community 39:
-  Dominant Subfield: Electroweak Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Electroweak Physics': {'odds_ratio': inf, 'p_value': 0.07654302937635131}}
 
 Community 40:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 41:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
-    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
-    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Neutrino Physics': 1, 'Quantum Field Theory': 1, 'Quantum Chromodynamics': 2, 'Electroweak Physics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Neutrino Physics': {'odds_ratio': 4.57071440090308, 'p_value': 0.32683118249276716}, 'Quantum Field Theory': {'odds_ratio': 10.457379767827529, 'p_value': 0.1669881076837169}, 'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}, 'Electroweak Physics': {'odds_ratio': 2.614523385999791, 'p_value': 0.4768061282685281}}
 
 Community 42:
-  Dominant Subfield: Unknown (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
-    Gravitational Physics: 1 - Odds Ratio: 42.34, P-value: 0.0457
-    Beyond the Standard Model: 1 - Odds Ratio: 13.02, P-value: 0.1376
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Unknown': 1, 'Gravitational Physics': 1, 'Beyond the Standard Model': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Unknown': {'odds_ratio': 7.8415664192475045, 'p_value': 0.2134548042768561}, 'Gravitational Physics': {'odds_ratio': 42.342534504391466, 'p_value': 0.04566633062440687}, 'Beyond the Standard Model': {'odds_ratio': 13.019480519480519, 'p_value': 0.13761877838637657}}
 
 Community 43:
-  Dominant Subfield: Quantum Field Theory (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
-    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Field Theory': 1, 'Electroweak Physics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Field Theory': {'odds_ratio': 10.457379767827529, 'p_value': 0.1669881076837169}, 'Electroweak Physics': {'odds_ratio': 2.614523385999791, 'p_value': 0.4768061282685281}}
 
 Community 44:
-  Dominant Subfield: Beyond the Standard Model (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Beyond the Standard Model: 2 - Odds Ratio: inf, P-value: 0.0051
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Beyond the Standard Model': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Beyond the Standard Model': {'odds_ratio': inf, 'p_value': 0.0050894946408914215}}
 
 Community 45:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 46:
-  Dominant Subfield: General Theoretical Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    General Theoretical Physics: 2 - Odds Ratio: inf, P-value: 0.0037
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'General Theoretical Physics': 2, 'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'General Theoretical Physics': {'odds_ratio': inf, 'p_value': 0.0036760189281377278}, 'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 47:
-  Dominant Subfield: Non-Perturbative QCD (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Non-Perturbative QCD: 2 - Odds Ratio: inf, P-value: 0.0006
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Non-Perturbative QCD': 2, 'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Non-Perturbative QCD': {'odds_ratio': inf, 'p_value': 0.0005724039093053086}, 'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 48:
-  Dominant Subfield: Unknown (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
-    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Unknown': 1, 'Quantum Chromodynamics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Unknown': {'odds_ratio': 7.8415664192475045, 'p_value': 0.2134548042768561}, 'Quantum Chromodynamics': {'odds_ratio': 1.1419978917343585, 'p_value': 1.0}}
 
 Community 49:
-  Dominant Subfield: Cosmology (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Cosmology: 2 - Odds Ratio: inf, P-value: 0.0037
-    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
-    Beyond the Standard Model: 1 - Odds Ratio: 13.02, P-value: 0.1376
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Cosmology': 2, 'Electroweak Physics': 2, 'Beyond the Standard Model': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Cosmology': {'odds_ratio': inf, 'p_value': 0.0036795299299793105}, 'Electroweak Physics': {'odds_ratio': inf, 'p_value': 0.07654302937635131}, 'Beyond the Standard Model': {'odds_ratio': 13.019480519480519, 'p_value': 0.13761877838637657}}
 
 Community 50:
-  Dominant Subfield: Neutrino Physics (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Neutrino Physics: 1 - Odds Ratio: 4.57, P-value: 0.3268
-    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
-    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Neutrino Physics': 1, 'Quantum Chromodynamics': 1, 'Electroweak Physics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Neutrino Physics': {'odds_ratio': 4.57071440090308, 'p_value': 0.32683118249276716}, 'Quantum Chromodynamics': {'odds_ratio': 1.1419978917343585, 'p_value': 1.0}, 'Electroweak Physics': {'odds_ratio': 2.614523385999791, 'p_value': 0.4768061282685281}}
 
 Community 51:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 52:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
-    Gravitational Physics: 1 - Odds Ratio: 42.34, P-value: 0.0457
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2, 'Gravitational Physics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}, 'Gravitational Physics': {'odds_ratio': 42.342534504391466, 'p_value': 0.04566633062440687}}
 
 Community 53:
-  Dominant Subfield: Quantum Chromodynamics (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
-    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 1, 'Unknown': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': 1.1419978917343585, 'p_value': 1.0}, 'Unknown': {'odds_ratio': 7.8415664192475045, 'p_value': 0.2134548042768561}}
 
 Community 54:
-  Dominant Subfield: Electroweak Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Cosmology: 1 - Odds Ratio: 15.49, P-value: 0.1177
-    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
-    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Cosmology': 1, 'Electroweak Physics': 2, 'Quantum Field Theory': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Cosmology': {'odds_ratio': 15.488782816229117, 'p_value': 0.11766592251024534}, 'Electroweak Physics': {'odds_ratio': inf, 'p_value': 0.07654302937635131}, 'Quantum Field Theory': {'odds_ratio': 10.457379767827529, 'p_value': 0.1669881076837169}}
 
 Community 55:
-  Dominant Subfield: General Theoretical Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    General Theoretical Physics: 2 - Odds Ratio: inf, P-value: 0.0037
-    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
-    Quantum Electrodynamics: 2 - Odds Ratio: inf, P-value: 0.0006
-    Cosmology: 1 - Odds Ratio: 15.49, P-value: 0.1177
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'General Theoretical Physics': 2, 'Quantum Field Theory': 1, 'Quantum Electrodynamics': 2, 'Cosmology': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'General Theoretical Physics': {'odds_ratio': inf, 'p_value': 0.0036760189281377278}, 'Quantum Field Theory': {'odds_ratio': 10.457379767827529, 'p_value': 0.1669881076837169}, 'Quantum Electrodynamics': {'odds_ratio': inf, 'p_value': 0.0005835385614463491}, 'Cosmology': {'odds_ratio': 15.488782816229117, 'p_value': 0.11766592251024534}}
 
 Community 56:
-  Dominant Subfield: String Theory (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    String Theory: 1 - Odds Ratio: 42.84, P-value: 0.0452
-    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'String Theory': 1, 'Unknown': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'String Theory': {'odds_ratio': 42.83756345177665, 'p_value': 0.045157247088648364}, 'Unknown': {'odds_ratio': 7.8415664192475045, 'p_value': 0.2134548042768561}}
 
 Community 57:
-  Dominant Subfield: Neutrino Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Neutrino Physics: 2 - Odds Ratio: inf, P-value: 0.0322
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Neutrino Physics': 2, 'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Neutrino Physics': {'odds_ratio': inf, 'p_value': 0.03222630607320279}, 'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 58:
-  Dominant Subfield: Beyond the Standard Model (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
-    Beyond the Standard Model: 2 - Odds Ratio: inf, P-value: 0.0051
-    Quantum Field Theory: 1 - Odds Ratio: 10.46, P-value: 0.1670
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 1, 'Beyond the Standard Model': 2, 'Quantum Field Theory': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Electroweak Physics': {'odds_ratio': 2.614523385999791, 'p_value': 0.4768061282685281}, 'Beyond the Standard Model': {'odds_ratio': inf, 'p_value': 0.0050894946408914215}, 'Quantum Field Theory': {'odds_ratio': 10.457379767827529, 'p_value': 0.1669881076837169}}
 
 Community 59:
-  Dominant Subfield: Electroweak Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
-    Supersymmetry: 1 - Odds Ratio: 6.51, P-value: 0.2487
-    Quantum Chromodynamics: 1 - Odds Ratio: 1.14, P-value: 1.0000
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 2, 'Supersymmetry': 1, 'Quantum Chromodynamics': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Electroweak Physics': {'odds_ratio': inf, 'p_value': 0.07654302937635131}, 'Supersymmetry': {'odds_ratio': 6.506301607996523, 'p_value': 0.24873500991799363}, 'Quantum Chromodynamics': {'odds_ratio': 1.1419978917343585, 'p_value': 1.0}}
 
 Community 60:
-  Dominant Subfield: Particle Physics (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Particle Physics: 1 - Odds Ratio: 6.35, P-value: 0.2536
-    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Particle Physics': 1, 'Unknown': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Particle Physics': {'odds_ratio': 6.351351351351352, 'p_value': 0.2535946353299613}, 'Unknown': {'odds_ratio': 7.8415664192475045, 'p_value': 0.2134548042768561}}
 
 Community 61:
-  Dominant Subfield: Electroweak Physics (50.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 1 - Odds Ratio: 2.61, P-value: 0.4768
-    Unknown: 1 - Odds Ratio: 7.84, P-value: 0.2135
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 1, 'Unknown': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Electroweak Physics': {'odds_ratio': 2.614523385999791, 'p_value': 0.4768061282685281}, 'Unknown': {'odds_ratio': 7.8415664192475045, 'p_value': 0.2134548042768561}}
 
 Community 62:
-  Dominant Subfield: Electroweak Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Electroweak Physics': {'odds_ratio': inf, 'p_value': 0.07654302937635131}}
 
 Community 63:
-  Dominant Subfield: Supersymmetry (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Supersymmetry: 2 - Odds Ratio: inf, P-value: 0.0178
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Supersymmetry': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Supersymmetry': {'odds_ratio': inf, 'p_value': 0.017750256104121797}}
 
 Community 64:
-  Dominant Subfield: Electroweak Physics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Electroweak Physics: 2 - Odds Ratio: inf, P-value: 0.0765
-    General Theoretical Physics: 1 - Odds Ratio: 15.50, P-value: 0.1176
-    Cosmology: 1 - Odds Ratio: 15.49, P-value: 0.1177
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Electroweak Physics': 2, 'General Theoretical Physics': 1, 'Cosmology': 1})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Electroweak Physics': {'odds_ratio': inf, 'p_value': 0.07654302937635131}, 'General Theoretical Physics': {'odds_ratio': 15.49665711556829, 'p_value': 0.1176115396893578}, 'Cosmology': {'odds_ratio': 15.488782816229117, 'p_value': 0.11766592251024534}}
 
 Community 65:
-  Dominant Subfield: Quantum Chromodynamics (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Quantum Chromodynamics: 2 - Odds Ratio: inf, P-value: 0.2179
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Quantum Chromodynamics': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Quantum Chromodynamics': {'odds_ratio': inf, 'p_value': 0.21794712023983884}}
 
 Community 66:
-  Dominant Subfield: Unknown (100.00%)
-  Subfield Distribution and Fisher's Exact Test Results:
-    Unknown: 2 - Odds Ratio: inf, P-value: 0.0128
+  count: 2
+  subfields: defaultdict(<class 'int'>, {'Unknown': 2})
+  edge_density: 0.5
+  avg_clustering: 0.0
+  avg_degree_centrality: 2.8947749312490954e-05
+  avg_betweenness_centrality: 0.0
+  fisher_results: {'Unknown': {'odds_ratio': inf, 'p_value': 0.012794254948524564}}
+

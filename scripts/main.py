@@ -25,13 +25,13 @@ def main():
 
     # Detect communities and analyze them
     partition = cd.detect_communities_infomap(citation_network)
-    community_stats = ca.prepare_community_stats(partition, labeled_papers)
+    community_stats, global_stats = ca.prepare_community_stats(partition, labeled_papers, citation_network)
 
     # Calculate and display Fisher's Exact Test results
     community_stats = ca.perform_fisher_analysis(community_stats, labeled_papers, len(paper_ids))
     if not os.path.exists('Results'):
         os.makedirs('Results')
-    ut.save_community_analysis(community_stats, output_file='Results/community_analysis.txt')
+    ut.save_analysis(community_stats, global_stats, output_file='Results/community_analysis.txt')
     cd.visualize_communities(citation_network, partition, community_stats)
 
 

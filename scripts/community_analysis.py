@@ -1,33 +1,47 @@
 import collections as col
 import scipy.stats as st
+import networkx as nx
 
-def prepare_community_stats(partition, labeled_papers):
-    """
-    Prepares initial community statistics based on partition and labeled papers, calculating dominant subfields.
-    
-    Args:
-        partition (dict): Mapping from paper IDs to community IDs.
-        labeled_papers (dict): Mapping from paper IDs to lists of subfields.
-    
-    Returns:
-        dict: A dictionary with initial community statistics including dominant subfields.
-    """
-    community_stats = col.defaultdict(lambda: {'count': 0, 'subfields': col.defaultdict(int)})
+def prepare_community_stats(partition, labeled_papers, graph):
+    community_stats = col.defaultdict(lambda: {
+        'count': 0,
+        'subfields': col.defaultdict(int), 
+        'edge_density': 0,
+        'avg_clustering': 0,
+        'avg_degree_centrality': 0,
+        'avg_betweenness_centrality': 0
+    })
+
+
+    # Global metrics
+    global_edge_density = nx.density(graph)
+    global_clustering_coefficient = nx.average_clustering(graph)
+    global_degree_centrality = nx.degree_centrality(graph)
+    global_betweenness_centrality = nx.betweenness_centrality(graph)
+
     for paper_id, community_id in partition.items():
         community_stats[community_id]['count'] += 1
         subfields = labeled_papers.get(paper_id, ["Unknown"])
         for subfield in subfields:
             community_stats[community_id]['subfields'][subfield] += 1
-    
-    # Calculate the dominant subfield for each community
-    for community_id, stats in community_stats.items():
-        dominant_subfield = max(stats['subfields'], key=stats['subfields'].get)
-        dominant_count = stats['subfields'][dominant_subfield]
-        total_count = stats['count']
-        stats['dominant_subfield'] = dominant_subfield
-        stats['dominant_percentage'] = (dominant_count / total_count) * 100 if total_count > 0 else 0
 
-    return community_stats
+    for community_id, stats in community_stats.items():
+        subgraph = graph.subgraph([node for node, comm in partition.items() if comm == community_id])
+        stats['edge_density'] = nx.density(subgraph)
+        stats['avg_clustering'] = nx.average_clustering(subgraph)
+        stats['avg_degree_centrality'] = sum(global_degree_centrality[node] for node in subgraph.nodes()) / len(subgraph.nodes())
+        stats['avg_betweenness_centrality'] = sum(global_betweenness_centrality[node] for node in subgraph.nodes()) / len(subgraph.nodes())
+
+    global_stats = {
+        'global_edge_density': global_edge_density,
+        'global_clustering_coefficient': global_clustering_coefficient,
+        'global_avg_degree_centrality': sum(global_degree_centrality.values()) / len(graph.nodes()),
+        'global_avg_betweenness_centrality': sum(global_betweenness_centrality.values()) / len(graph.nodes())
+    }
+
+
+    return community_stats, global_stats
+
 
 
 def perform_fisher_analysis(community_stats, labeled_papers, total_papers):
