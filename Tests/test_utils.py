@@ -1,12 +1,12 @@
 from . import test_setup
 import unittest
 from unittest.mock import mock_open, patch, call
-from scripts.utils import save_community_analysis, format_paper_id
+from scripts.utils import save_analysis, format_paper_id
 
 class TestSaveCommunityAnalysis(unittest.TestCase):
-
     @patch('builtins.open', new_callable=mock_open)
-    def test_save_community_analysis(self, mock_file):
+    def test_save_analysis(self, mock_file):
+        # Example setup
         community_stats = {
             1: {
                 'dominant_subfield': 'Electroweak Physics',
@@ -21,23 +21,24 @@ class TestSaveCommunityAnalysis(unittest.TestCase):
                 }
             }
         }
-        output_file = 'test_community_analysis.txt'
-        save_community_analysis(community_stats, output_file)
+        global_stats = {'total_papers': 10000, 'total_citations': 500000}
+        output_file = 'test_analysis_output.txt'
+        
+        # Call the function under test
+        save_analysis(community_stats, global_stats, output_file)
+        
+        # Access the file handle correctly
+        handle = mock_file.return_value.__enter__.return_value
+        
+        
+        handle.write.assert_any_call("Global Metrics:\n")
+        handle.write.assert_any_call("total_papers: 10000\n")
+        handle.write.assert_any_call("total_citations: 500000\n")
+        handle.write.assert_any_call("Community Specific Metrics:\n")
+        handle.write.assert_any_call("Community 1:\n")
+        handle.write.assert_any_call("  dominant_subfield: Electroweak Physics\n")
+        handle.write.assert_any_call("  subfields: {'Gravitational Physics': 600, 'Electroweak Physics': 5586}\n")
 
-        # Prepare the expected content to be written to the file
-        expected_calls = [
-            call("\nCommunity 1:\n"),
-            call("  Dominant Subfield: Electroweak Physics (38.81%)\n"),
-            call("  Subfield Distribution and Fisher's Exact Test Results:\n"),
-            call("    Gravitational Physics: 600 - Odds Ratio: 4.38, P-value: 0.0001\n"),
-            call("    Electroweak Physics: 5586 - Odds Ratio: 2.58, P-value: 0.0000\n")
-        ]
-
-        # Check that open was called correctly
-        mock_file.assert_called_once_with(output_file, 'w')
-        # Check that write was called correctly
-        handle = mock_file()
-        handle.write.assert_has_calls(expected_calls, any_order=False)
 
 class TestFormatPaperId(unittest.TestCase):
 

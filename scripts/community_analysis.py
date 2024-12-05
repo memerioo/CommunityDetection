@@ -9,9 +9,10 @@ def prepare_community_stats(partition, labeled_papers, graph):
         'edge_density': 0,
         'avg_clustering': 0,
         'avg_degree_centrality': 0,
-        'avg_betweenness_centrality': 0
+        'avg_betweenness_centrality': 0,
+        'dominant_subfield': None,
+        'dominant_percentage': 0
     })
-
 
     # Global metrics
     global_edge_density = nx.density(graph)
@@ -31,6 +32,10 @@ def prepare_community_stats(partition, labeled_papers, graph):
         stats['avg_clustering'] = nx.average_clustering(subgraph)
         stats['avg_degree_centrality'] = sum(global_degree_centrality[node] for node in subgraph.nodes()) / len(subgraph.nodes())
         stats['avg_betweenness_centrality'] = sum(global_betweenness_centrality[node] for node in subgraph.nodes()) / len(subgraph.nodes())
+        if stats['subfields']:
+            dominant_subfield = max(stats['subfields'], key=stats['subfields'].get)
+            stats['dominant_subfield'] = dominant_subfield
+            stats['dominant_percentage'] = (stats['subfields'][dominant_subfield] / stats['count']) * 100 if stats['count'] > 0 else 0
 
     global_stats = {
         'global_edge_density': global_edge_density,
@@ -38,7 +43,6 @@ def prepare_community_stats(partition, labeled_papers, graph):
         'global_avg_degree_centrality': sum(global_degree_centrality.values()) / len(graph.nodes()),
         'global_avg_betweenness_centrality': sum(global_betweenness_centrality.values()) / len(graph.nodes())
     }
-
 
     return community_stats, global_stats
 
