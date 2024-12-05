@@ -6,6 +6,14 @@ from scripts.utils import save_analysis, format_paper_id
 class TestSaveCommunityAnalysis(unittest.TestCase):
     @patch('builtins.open', new_callable=mock_open)
     def test_save_analysis(self, mock_file):
+        """
+        This test uses a mock for the file handling to verify if the write operations include specific
+        content based on provided `community_stats` and `global_stats`.
+        Attributes:
+            mock_file (MagicMock): A mock of the built-in open function used to intercept file operations.
+    
+        The mock data simulates a typical set of community statistics
+        """
         # Example setup
         community_stats = {
             1: {

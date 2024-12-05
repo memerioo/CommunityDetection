@@ -3,6 +3,23 @@ import scipy.stats as st
 import networkx as nx
 
 def prepare_community_stats(partition, labeled_papers, graph):
+    """
+    Calculates detailed community and global statistics for a given graph.
+
+    This function processes a graph based on provided partition and labeled papers to compute metrics such as 
+    paper count, subfields, and various centrality measures for each community. It also calculates global metrics
+    like edge density and clustering coefficient for the entire graph.
+
+    Args:
+        partition (dict): Maps paper IDs to community IDs.
+        labeled_papers (dict): Maps paper IDs to their corresponding subfields.
+        graph (networkx.Graph): The graph representing papers as nodes and their relationships as edges.
+
+    Returns:
+        tuple: Contains two elements:
+            - A dictionary with community-specific statistics including the dominant subfield and its percentage.
+            - A dictionary with global statistics for the entire graph.
+    """
     community_stats = col.defaultdict(lambda: {
         'count': 0,
         'subfields': col.defaultdict(int), 
